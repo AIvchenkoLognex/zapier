@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/usr/src/app
+      - ~/.npmrc:/usr/src/app/.npmrc
+      - ~/.zapierrc:/root/.zapierrc

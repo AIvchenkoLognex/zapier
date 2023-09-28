@@ -1,0 +1,1 @@
+DOCKER_BUILDKIT=1 docker build --secret id=npmrc,src=$HOME/.npmrc --secret id=zap,src=$HOME/.zapierrc ../zapier
